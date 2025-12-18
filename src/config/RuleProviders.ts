@@ -38,7 +38,7 @@ export const RuleProviders: RuleProvider[] = [
       },
       {
         key: "--- ACL4SSR 规则 ---",
-        value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+        value: ""
     },
       {
         key: "ACL_默认版",
@@ -101,8 +101,8 @@ export const RuleProviders: RuleProvider[] = [
         value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
       },
       {
-          key: "--- 全网搜集规则 ---",
-          value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG.ini"
+        key: "--- 全网搜集规则 ---",
+        value: ""
      },
       {
         key: "常规规则",
@@ -235,7 +235,7 @@ export const RuleProviders: RuleProvider[] = [
       },
       {
           key: "--- 各大机场规则 ---",
-          value: "https://gist.github.com/jklolixxs/16964c46bad1821c70fa97109fd6faa2/raw/EXFLUX.ini"
+          value: ""
      },
       {
         key: "EXFLUX",
@@ -377,7 +377,7 @@ export const RuleProviders: RuleProvider[] = [
       },
     {
         key: "--- 特殊 ---",
-        value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
+        value: ""
       },
       {
         key: "NeteaseUnblock",
