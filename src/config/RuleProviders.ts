@@ -4,10 +4,7 @@ type RuleProvider = {
 }
 
 export const RuleProviders: RuleProvider[] = [
-  {
-    key: "通用",
-    options: [
-      {
+    {
         key: "默认",
         value: "__DEFAULT"
       },
@@ -38,12 +35,11 @@ export const RuleProviders: RuleProvider[] = [
       {
         key: "流媒体通用分组",
         value: "https://raw.githubusercontent.com/cutethotw/ClashRule/main/GeneralClashRule.ini"
-      }
-    ]
-  },
-  {
-    key: "ACL规则",
-    options: [
+      },
+      {
+        key: "--- ACL4SSR 规则 ---",
+        value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+    },
       {
         key: "ACL_默认版",
         value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
@@ -103,12 +99,11 @@ export const RuleProviders: RuleProvider[] = [
       {
         key: "ACL_多模式精简版",
         value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
-      }
-    ]
-  },
-  {
-    key: "全网搜集规则",
-    options: [
+      },
+      {
+          key: "--- 全网搜集规则 ---",
+          value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG.ini"
+     },
       {
         key: "常规规则",
         value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG.ini"
@@ -237,12 +232,11 @@ export const RuleProviders: RuleProvider[] = [
       {
         key: "ShellClash修改版规则 (by UlinoyaPed)",
         value: "https://github.com/UlinoyaPed/ShellClash/raw/master/rules/ShellClash.ini"
-      }
-    ]
-  },
-  {
-    key: "各大机场规则",
-    options: [
+      },
+      {
+          key: "--- 各大机场规则 ---",
+          value: "https://gist.github.com/jklolixxs/16964c46bad1821c70fa97109fd6faa2/raw/EXFLUX.ini"
+     },
       {
         key: "EXFLUX",
         value:
@@ -380,12 +374,11 @@ export const RuleProviders: RuleProvider[] = [
       {
         key: "Flowercloud",
         value: "https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/flower.ini"
-      }
-    ]
-  },
-  {
-    key: "特殊",
-    options: [
+      },
+    {
+        key: "--- 特殊 ---",
+        value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
+      },
       {
         key: "NeteaseUnblock",
         value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
@@ -394,6 +387,4 @@ export const RuleProviders: RuleProvider[] = [
         key: "Basic",
         value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini"
       }
-    ]
-  }
 ];
