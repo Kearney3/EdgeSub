@@ -24,13 +24,18 @@ const {
 
     <ul
         tabindex="0"
-        class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+        class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm max-h-64 overflow-y-auto"
     >
         {
             Items.map((i) => {
+                const isSeparator = i.key.startsWith('---') && i.key.endsWith('---');
                 return (
                     <li>
-                        <a data-value={i.value}>{i.key}</a>
+                        {isSeparator ? (
+                            <span class="menu-title text-base-content/70 font-semibold px-2 py-1">{i.key.slice(3, -3)}</span>
+                        ) : (
+                            <a data-value={i.value}>{i.key}</a>
+                        )}
                     </li>
                 );
             })
